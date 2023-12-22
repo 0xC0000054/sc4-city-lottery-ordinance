@@ -454,7 +454,7 @@ bool OrdinanceBase::IsAvailable(void)
 {
 	logger.WriteLineFormatted(
 		LogOptions::OrdinanceAPI,
-		"%s: result=%d"
+		"%s: result=%d",
 		__FUNCTION__,
 		available);
 
@@ -467,7 +467,7 @@ bool OrdinanceBase::IsOn(void)
 
 	logger.WriteLineFormatted(
 		LogOptions::OrdinanceAPI,
-		"%s: result=%d"
+		"%s: result=%d",
 		__FUNCTION__,
 		result);
 
@@ -478,7 +478,7 @@ bool OrdinanceBase::IsEnabled(void)
 {
 	logger.WriteLineFormatted(
 		LogOptions::OrdinanceAPI,
-		"%s: result=%d"
+		"%s: result=%d",
 		__FUNCTION__,
 		enabled);
 
